@@ -1,0 +1,435 @@
+
+/*Main*/
+main > section{
+    display: flex;
+    flex-direction: column;
+    background-color:black;
+}
+img{
+    border-radius: 10px;
+}
+#photo > img{
+    border-radius: 50%;
+    width: 400px;
+}
+
+.bouton{
+    width: fit-content;
+    display: flex;
+    width: fit-content;
+    font-family: horeliosmedium;
+    font-size: 20px;
+    padding: 10px;
+    border: solid #fff 1px;
+    transition: background-color 0.3s ease;
+    align-self: center;
+    justify-self: center;
+}
+
+.bouton:hover{
+    background-color: white;
+    color: black;
+}
+
+#nom{
+    font-family: horeliosmedium;
+    font-variant: small-caps;
+    font-size: 40px;
+    text-align: center;
+    line-height: 0.1em;
+}
+#nom p{
+    font-size: 25px;
+}
+#auteur{
+    text-decoration:underline;
+}
+figure{
+    color:#ffffff45
+}
+
+#presentation > article{
+    display: flex;
+    flex-direction: column;
+    
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    color: #fff;
+    width: 50%;
+    padding: 0 5em;
+    align-self: center;
+
+}
+strong{
+    color: #55beda;
+}
+
+#presentation, #textePresentation{
+    flex-direction: row;
+}
+
+#presentation, #sectEtude{
+    padding:3em;
+    border-bottom: solid 1px #ffffff32;
+}
+#textePresentation, #sectEtude, #sectCertifi{
+    padding: 0 3em 7em;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    font-size: 20px;
+    align-items:  center;
+}
+.rubrique{
+    font-size: 85px;
+    
+    padding: 0 0.2em 0.2em 0;
+    border-bottom:1px white solid;
+    border-right:1px white solid;
+    box-shadow: 4px 4px 3px #55beda;
+}
+
+#textePresentation > p, .diplome > div{
+    width: 40%;
+    padding:0 5em;
+    text-align: justify;
+    word-spacing: 3px;
+    
+}
+#textePresentation > img{
+    width:500px;
+    height: auto;
+} 
+
+/*Formation*/
+#sectEtude, #sectCertifi{
+    justify-content: flex-start;
+    padding-bottom: 2em;
+}
+
+#sectEtude > .rubrique, #sectCertifi > .rubrique{
+    margin: 1em 2em 0.4em;
+}
+.diplome{
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    padding: 0 7em;
+    justify-content: center;
+}
+
+.diplome > div{
+    line-height:0.2em;
+    flex-direction: column;
+    justify-content: left;
+    align-items: flex-start;
+    
+}
+.diplome > div > h3, .diplome > div > h4,.diplome > div > ul{
+    line-height: 1em;
+    text-align:left;
+}
+
+.diplome > div > p,.diplome > div > ul, .diplome > div > .bouton{
+    font-size: 15px;
+    line-height: 1em;
+}
+.diplome > div > h2{
+    font-size: 55px;
+    color:#55beda
+}
+.diplome > div > h3{
+    font-size: 30px;
+}
+.diplome > div > h4{
+    font-size: 20px;
+}
+
+.diplome > div > img{
+    width:400px;
+    
+}
+
+#sectCertifi, #sectEtude{
+    align-items: self-start;
+
+}
+
+.competence{
+    margin: 4vw 5vw 4vw 0;
+    font-size: 32px;
+    align-items: center;
+}
+
+.categorie{
+    position: relative;
+    display:flexbox;
+    border-bottom: white solid 2px;
+    width: 70%;
+    font-size: 1.5vw;
+    
+}
+.categorie > article{
+    padding: 2vw 0;
+    
+}
+.categorie > article > span, .categorie > article > h2{
+    display: inline-block;
+    margin: 0 1.5vw;
+}
+.categorie > article > span{
+    font-size: 1.5em;
+}
+.projet{
+    display : none;
+    margin-bottom : 1em;
+}
+.projet > a > div{
+    width: 100%;
+    display: inline-flex;
+    margin-left : 3em;
+    margin-bottom: 1em;
+    padding : 2em;
+    align-items: center;
+}
+
+
+.projet >a> div > img{
+    width:15vw;
+    border-radius: 10px;
+    border: black solid 1px;
+    
+}
+.projet > a > div > section{
+    margin: 0 10em 0 2em;
+
+}
+
+/*Contact*/
+#mainContact{
+    margin: 0 auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 85%;
+    background-color: black;
+}
+
+#contact h1 {
+    text-align: left;
+    width: fit-content;
+}
+
+#form{
+    margin: 0 4vw;
+}
+
+form p {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+    justify-content: space-between;
+}
+.input{
+    align-items: center;
+}
+#message{
+    flex-direction: column;
+}
+
+form p span {
+    color: red;
+    margin-left: 5px;
+}
+
+form label {
+    margin-right:15px;
+    margin-bottom: 5px;
+    color: white;
+    display: block;
+}
+form textarea, 
+form input[type="submit"],
+form input[type="text"]{
+    width: 75%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Add this line to include padding and border in the element's total width and height */
+}
+
+
+form textarea {
+    resize: vertical;
+    width:100%;
+}
+
+form .g-recaptcha {
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 0;
+}
+
+form input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    width:100%;
+}
+
+form input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.erreur {
+    color: red;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 768px) {
+    main {
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    main {
+        width: 95%;
+    }
+}
+
+
+.projet-description {
+    width: 70%;
+    margin: 20px auto;
+}
+
+.projet-description h1 {
+    font-size:4em;
+    margin-top: 0.5em;
+    width: fit-content;
+    padding: 0 0.2em 0.2em 0;
+    border-bottom: solid white 1px;
+    border-right: solid white 1px;
+    box-shadow: 4px 4px 3px #55beda;
+}
+
+.projet-description ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#liste{
+    margin-left:2em;
+    list-style-type: disc;
+}
+.sudoku-section {
+    display: flex;
+    align-items: center;
+}
+
+.sudoku-section + h2 + div{
+    display: flex;
+    flex-direction: column;
+    
+}
+.sudoku-section + h2 + div > article{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 2vw;
+}
+.sudoku-section + h2 + div > article > img{
+    width:6vw;
+    margin: 0 2vw;
+}
+#codeSource {
+    padding: 10px 20px; /* Ajustez le padding selon vos préférences */
+    border-radius: 5px;
+    align-items: center;
+    
+}
+
+ol +img{
+    width : 50%;
+    align-self: center;
+}
+
+.sudoku-section , #maquette{
+    display: flex;
+    align-items: center;
+}
+
+.sudoku-section img{
+    margin : 0 2em;
+    width :22vw;
+    height: auto;
+}
+#maquette > img{
+    width:35vw;
+    margin-right:2em;
+}
+
+#imgSud{
+    width: 38vw;
+}
+
+.bouton > img{
+    width: 30px;
+    height: auto;
+    margin-right: 1.2em;
+}
+
+#codeSource:hover > .lien-image {
+    content: url('asset/img/lienNoir.png'); /* Remplacez par le chemin de votre nouvelle image */
+}
+
+#bddphoto{
+    border: none;
+}
+
+#siteimage{
+    width:19em;
+}
+
+.boutons-container {
+    display: flex;
+    justify-content: space-evenly; /* Ajoute de l'espace entre les boutons */
+}
+
+
+/*Police*/
+
+@font-face {
+    font-family: 'horeliosmedium';
+    src: url('asset/police/horelios/horelios_medium-webfont.woff2') format('woff2'),
+         url('asset/police/horelios/horelios_medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'astonpolizregular';
+    src: url('asset/police/astonpoliz/astonpoliz-webfont.woff2') format('woff2'),
+         url('asset/police/astonpoliz/astonpoliz-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.selection {
+    background: linear-gradient(to right, white 50%, black 50%); /* Dégradé de noir à blanc */
+    background-size: 200% 100%; /* Double largeur pour couvrir la transition */
+    background-position: 100% 0; /* Position initiale, noir à droite */
+    transition: background-position 400ms ease, color 0.5s linear; /* Transition de position de l'arrière-plan */
+}
+
+.selection:hover {
+    background-position: 0 0; /* Position finale, blanc à gauche */
+    color:black;
+}
+ 
+
+

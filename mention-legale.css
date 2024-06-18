@@ -1,0 +1,50 @@
+
+#infoslegales{
+    margin: 0 2em;
+    align-items: flex-start;
+    font-size: 18px;
+}
+#infoslegales > section {
+    align-self: center;
+    line-height: 1.1em;
+}
+
+#infoslegales > section > h2{
+    text-align: center;
+    font-size: 3.5vw;
+    text-decoration: underline;
+}
+
+#infoslegales > section > h2 + p{
+    width:70%;
+    margin:0 11em;
+}
+
+#infoslegales > section + section{
+    width: 70%;
+}
+strong{
+    color: white;
+    font-weight: 500;
+}
+a:hover{
+    color: #55beda;
+    text-decoration: underline #55beda;
+}
+#infoslegales > section > h4{
+    margin-bottom: 0.1vw;
+    font-size: 1.5em;
+}
+#infoslegales > section > h4 + p{
+    margin-left: 2em;
+    margin-bottom: 2em;
+    font-size: 18px;
+}
+#infoslegales>section{
+    margin-bottom: 2em;
+}
+
+#infoslegales > section > h3{
+    font-size: 2.5vw;
+    line-height: 1em;
+}
