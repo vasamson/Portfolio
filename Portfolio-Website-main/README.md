@@ -1,16 +1,23 @@
-# My Portfolio Wesbite - Overview 🚀
+# 🌟 Bienvenue sur mon GitHub !
 
-This repository contains the open source version of my porfolio website.
-Do check it out!
+## 🙋‍♂️ À propos de moi
+Salut ! Je m'appelle [Valentin. Je suis un étudiant en **BUT Informatique** en 2ᵉ année, passionné par le développement web, le design et l'innovation. Toujours curieux et motivé, j'aime relever de nouveaux défis et apprendre des technologies qui transforment le monde numérique.  
 
-## Instructions 🛠️
+Actuellement, je travaille sur **mon site web personnel** 🚀, une vitrine interactive pour partager mes projets, compétences et passions. Restez connecté pour voir son évolution !
 
-I have modified the gsap club plugins with the trial plugins, but with the trial plugin you cannot host it🔴. So for Club plugins, Check out here: https://gsap.com/docs/v3/Installation/
+## 🛠️ Compétences techniques
+- **Langages :** HTML, CSS, JavaScript, PHP
+- **Frameworks et outils :** Bootstrap, TailwindCSS, React, PHPMailer
+- **Bases de données :** MySQL
+- **Design :** Figma, Prototypage UI/UX
+- **Autres :** Git, GitHub, Responsive Design
 
-**Techstack** - React, TypeScript, GSAP, ThreeJS, WebGL, HTML, Css, JavaScript
+## 🌱 En ce moment
+- 🌐 Développement de mon site personnel.
+- 💼 Recherche d'une alternance en **BUT MMI**, en Bretagne, avec possibilité de travailler **en présentiel**.
 
-![Protfolio-Preview](https://github.com/user-attachments/assets/3c4557e7-6392-4928-b8a9-7b2476ef4edd)
+## 📫 Me contacter
+- **Email :** samson.valentin2005@gmail.com
+- **Portfolio :** (Bientôt disponible avec mon site web perso !)
 
-## License
-
-This project is open source and available under the [MIT License](LICENSE).
+Merci de visiter mon GitHub ! Si un de mes projets te plaît ou si tu souhaites collaborer, n'hésite pas à me contacter ! 😄
